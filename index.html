@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>YourTube</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="head">
+  <header>
+    <h1>YourTube</h1>
+  </header>
+
+  <!-- Search Row -->
+  <div class="search-container">
+    <input type="text" id="searchTerm" placeholder="Enter search term" />
+    <input type="text" id="channelIdInput" placeholder="Search by Channel ID" />
+    <select id="channelSelect">
+      <option value="none">Select Channel</option>
+      <option value="all">All Channels</option>
+      <option value="UC9xghV-TcBwGvK-aEMhpt5w">Data Engineering</option>
+      <option value="UCwr-evhuzGZgDFrq_1pLt_A">EMC</option>
+      <option value="UCVXHYmFar7yArWvkcjxWXuQ">Hareesh</option>
+    </select>
+    <select id="resultType">
+      <option value="all">All</option>
+      <option value="video">Videos</option>
+      <option value="short">Shorts</option>
+      <option value="playlist">Playlists</option>
+      <option value="channel">Channels</option>
+    </select>
+    <button id="searchBtn">Search</button>
+  </div>
+</div>
+
+  <div id="results"></div>
+  <div id="loadMoreBtn"><button id="loadMore">Load More</button></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
