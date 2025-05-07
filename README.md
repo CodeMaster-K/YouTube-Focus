@@ -1,6 +1,6 @@
-**🧠 FinalTube – Smarter YouTube, Your Way**
+**🧠 YourTube – Smarter YouTube, Your Way**
 
-FinalTube is a lightweight browser tool that filters and customizes YouTube to give you a distraction-free experience. Designed to help you focus on the content you care about, FinalTube removes clutter and lets you take control of your YouTube time.
+YourTube is a lightweight browser tool that filters and customizes YouTube to give you a distraction-free experience. Designed to help you focus on the content you care about, YourTube removes clutter and lets you take control of your YouTube time.
 
 **🚀 Features**
 
